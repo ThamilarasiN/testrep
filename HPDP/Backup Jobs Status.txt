@@ -1,0 +1,112 @@
+Backup job status with specific date
+========================================
+
+C:\Program Files\Omniback\bin>omnistat.exe -previous -last n
+
+where n is number of previous days
+
+C:\Program Files\Omniback\bin>omnistat.exe -previous -last 1
+
+Session ID         Type     Status               User.Group@Host 
+===============================================================================
+2018/03/27-1       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-6       Media    Completed            PRIPAL.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-7       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-8       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-9       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-10      Media    Completed            PRIPAL.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-11      Media    Completed            PRIPAL.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-12      Backup   Completed            PRIPAL.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-13      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-14      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-15      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-16      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-19      Backup   Completed            DHAKRI.SYMETRA@prdodcdpc01.corp.symetra.com
+2018/03/27-20      Backup   Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-21      Media    Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-22      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-23      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-24      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-25      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-26      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-27      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-28      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-29      Media    Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-30      Media    Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-31      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-32      Copy     Aborted              S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-33      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-34      Copy     Aborted              S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-35      Copy     Aborted              S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-36      Restore  Completed            PRIYAR.SYMETRA@prdodccel02.corp.symetra.com
+2018/03/27-37      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-38      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-39      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-40      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-41      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-42      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-43      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-44      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-45      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-46      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-47      Backup   Aborted              S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-48      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-49      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-50      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-51      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-52      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-53      Backup   Completed            PRIPAL.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-54      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-55      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-56      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-57      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-58      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-59      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-61      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-62      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-63      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-64      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-65      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-66      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-67      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-68      Backup   Completed/Failures   S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-69      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-70      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-71      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-72      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-73      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-74      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-75      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-76      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-77      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-78      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-79      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-80      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-81      Backup   Completed/Failures   S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-82      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-83      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-84      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-85      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-86      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-87      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-88      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-89      Backup   Completed/Failures   S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/27-90      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-1       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-2       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-3       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-4       Backup   In Progress          S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-5       Backup   In Progress          S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-6       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-8       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-9       Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-10      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-11      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-13      Backup   In Progress          S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-14      Backup   Completed/Errors     S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-15      Backup   In Progress          S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-16      Backup   Completed            DHAKRI.SYMETRA@prdodcdpc01.corp.symetra.com
+2018/03/28-17      Backup   Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-18      Backup   Completed            DHAKRI.SYMETRA@prdodccel01.corp.symetra.com
+2018/03/28-19      Backup   Completed            S.HP.OPENVIEW.BKUP.SYMETRA@prdodccel01.corp.symetra.com
+

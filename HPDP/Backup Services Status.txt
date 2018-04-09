@@ -1,0 +1,13 @@
+C:\Program Files\Omniback\bin>omnisv.exe -status
+    ProcName      Status  [PID]
+===============================
+    crs         : Active  [15204]
+    mmd         : Active  [14020]
+    kms         : Active  [14396]
+    hpdp-idb    : Active  [13328]
+    hpdp-idb-cp : Active  [4264]
+    hpdp-as     : Active  [7760]
+    omniinet    : Active  [13912]
+    Sending of traps disabled.
+===============================
+Status: All Data Protector processes/services up and running.

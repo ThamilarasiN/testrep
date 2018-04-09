@@ -1,0 +1,26 @@
+Job count
+==========
+
+Command :
+
+C:\Program Files\Omniback\bin>omnirpt -report session_statistics -timeframe day hours
+
+where day is the date i.e 27th of current month
+
+C:\Program Files\Omniback\bin>omnirpt -report session_statistics -timeframe 27 24
+
+Session Statistics
+
+Cell Manager: d-113095445.wipro.com
+Creation Date: 3/26/2018 1:23:58 PM
+
+Data Written [GB]: 17565.66
+# Media: 23
+# Objects: 6684
+# Completed DA: 4876
+# Failed DA: 1808
+# Running DA: 0
+# Pending DA: 0
+Success: 73%
+
+
